@@ -37,9 +37,11 @@ function calc(n1, n2, ) {
 
 let resul = calc(65,26);
 let resul2 = calc(8,4);
+let resul3 = calc(8,44);
 
 
 console.log(resul);
 console.log(resul2);
+console.log(Math.abs(resul3));
 
 
