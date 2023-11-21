@@ -22,17 +22,30 @@ function exemplo2(params) {
 }
 exemplo2();
 
-/* Exercício
+/* ======= Exercício =======*/ 
 
 
-*/ 
-
-function calc(n1, n2, ) {
-   let dif = n1 - n2;
+// function calc(n1, n2, ) {
+//    let dif = n1 - n2;
     
-   return Math.abs(dif);
-}
+//    return Math.abs(dif);
+// }
 
+
+
+// let resul = calc(65,26);
+// let resul2 = calc(8,4);
+// let resul3 = calc(8,44);
+
+
+// console.log(resul);
+// console.log(resul2);
+// console.log(resul3);
+
+
+/* ======= Refatoração =======*/ 
+
+const calc = (n1, n2 ) =>  Math.abs(n1 - n2);
 
 
 let resul = calc(65,26);
@@ -43,6 +56,9 @@ let resul3 = calc(8,44);
 console.log(resul);
 console.log(resul2);
 console.log(resul3);
+
+/* ======= Fim Exercício =======*/ 
+
 
 /* Sintaxe arrow Function */
 
@@ -66,9 +82,16 @@ const saudacao = cliente => console.log("Olá " + cliente);
 
 saudacao("Aicha!");
 
-const calculaMetade = (valor) => {
+
+
+const calculaMetadeOriginal = (valor) => {
     return valor / 2;
 }
+
+
+// Arrow Function com retorno IMPLÍCITO
+const calculaMetade = valor => valor / 2;
+
 
 let resulA = calculaMetade(100);
 let resulB = calculaMetade(666);
