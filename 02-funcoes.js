@@ -44,4 +44,24 @@ console.log(resul);
 console.log(resul2);
 console.log(resul3);
 
+/* Sintaxe arrow Function */
 
+const exemplo3 = () => {
+    console.log("Arrow Function!");
+};
+
+exemplo3();
+
+// const saudacao = (cliente) => {
+//     console.log("Olá " + cliente);
+// }
+
+// Omitir os parênteses do parâmetro (SOMENTE QUANDO FOR 1)
+// const saudacao = cliente => {
+//     console.log("Olá " + cliente);
+// }
+
+// Omitir as {} (SOMENTE QUANDO FOR UMA ÚNICA INSTRUÇÃO)
+const saudacao = cliente => console.log("Olá " + cliente);
+
+saudacao("Aicha!")
