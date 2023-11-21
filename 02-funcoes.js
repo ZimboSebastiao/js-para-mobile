@@ -30,7 +30,7 @@ exemplo2();
 function calc(n1, n2, ) {
    let dif = n1 - n2;
     
-   return dif;
+   return Math.abs(dif);
 }
 
 
@@ -42,6 +42,6 @@ let resul3 = calc(8,44);
 
 console.log(resul);
 console.log(resul2);
-console.log(Math.abs(resul3));
+console.log(resul3);
 
 
