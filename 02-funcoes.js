@@ -28,11 +28,18 @@ exemplo2();
 */ 
 
 function calc(n1, n2, ) {
-   var dif = n1 - n2;
+   let dif = n1 - n2;
     
-    return console.log("A diferença é de: ", dif); 
+   return dif;
 }
 
-calc(65,26);
-calc(8,4);
+
+
+let resul = calc(65,26);
+let resul2 = calc(8,4);
+
+
+console.log(resul);
+console.log(resul2);
+
 
