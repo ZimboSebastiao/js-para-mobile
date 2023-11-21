@@ -21,3 +21,18 @@ function exemplo2(params) {
     
 }
 exemplo2();
+
+/* Exercício
+
+
+*/ 
+
+function calc(n1, n2, ) {
+   var dif = n1 - n2;
+    
+    return console.log("A diferença é de: ", dif); 
+}
+
+calc(65,26);
+calc(8,4);
+
