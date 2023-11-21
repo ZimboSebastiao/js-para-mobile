@@ -11,4 +11,4 @@
 
  `var` possui escopo **GLOBAL** mesmo quando declarado dentro de blocos. Portanto, é acessíveç em praticamente qualquer lugar dentro da aplicação.
 
- `const` obrigatoriamente precisa ser inicializada com algum valor/expressão, e este valor/expressão **não pode ser modificado** 
+ `const` obrigatoriamente precisa ser inicializada com algum valor/expressão, e este valor/expressão **não pode ser modificado**.
