@@ -64,4 +64,14 @@ exemplo3();
 // Omitir as {} (SOMENTE QUANDO FOR UMA ÚNICA INSTRUÇÃO)
 const saudacao = cliente => console.log("Olá " + cliente);
 
-saudacao("Aicha!")
+saudacao("Aicha!");
+
+const calculaMetade = (valor) => {
+    return valor / 2;
+}
+
+let resulA = calculaMetade(100);
+let resulB = calculaMetade(666);
+
+console.log(resulA);
+console.log(resulB);
