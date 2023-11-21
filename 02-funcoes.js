@@ -54,7 +54,7 @@ let resul3 = calc(8,44);
 
 
 console.log(resul);
-console.log(resul2);
+console.log(resul2);  
 console.log(resul3);
 
 /* ======= Fim Exercício =======*/ 
