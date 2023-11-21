@@ -98,3 +98,16 @@ let resulB = calculaMetade(666);
 
 console.log(resulA);
 console.log(resulB);
+
+console.log("===============================================");
+
+const dados = (nome) => nome.toUpperCase()
+
+
+let pessoa = dados("aicha");
+let pessoa2 = dados("zimbo");
+let pessoa3 = dados("aline");
+
+console.log(pessoa);
+console.log(pessoa2);
+console.log(pessoa3);
