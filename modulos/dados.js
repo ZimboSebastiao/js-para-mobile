@@ -10,7 +10,9 @@ const livro = {
     ano: 1954
 }
 
+const alunos = ["Tanaka", "Victor", "Eliel"]
+
 
 // export default pessoa; Se for exportação de um recursos
 
-export {pessoa, livro}; // Se for exportação de vários recursos
+export {pessoa, livro, alunos}; // Se for exportação de vários recursos
