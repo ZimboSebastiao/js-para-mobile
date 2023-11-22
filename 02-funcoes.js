@@ -104,10 +104,8 @@ console.log("===============================================");
 const dados = (nome) => nome.toUpperCase()
 
 
-let pessoa = dados("aicha");
-let pessoa2 = dados("zimbo");
-let pessoa3 = dados("aline");
 
-console.log(pessoa);
-console.log(pessoa2);
-console.log(pessoa3);
+
+console.log(dados("aicha"));
+console.log(dados("zimbo"));
+console.log(dados("aline"));
