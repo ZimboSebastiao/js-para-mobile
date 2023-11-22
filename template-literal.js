@@ -13,3 +13,10 @@ Meu nome é Zimbo Sebastião, tenho 25 anos e moro atualmente na cidade de São 
 let mensagem1 = "Meu nome é <b class=\"destaque\">"+nome+ "</b> "+sobrenome+ ", tenho "+idade+" anos e moro atualmente na cidade de "+cidade+" - "+estado+".";
 
 console.log(mensagem1);
+
+console.log("=====================================");
+/* Template Literal/String*/
+
+let mensagem2 = `Meu nome é ${nome} ${sobrenome}, tenho ${idade} anos e moro atualmente na cidade de ${cidade} - ${estado}`;
+
+console.log(mensagem2);
