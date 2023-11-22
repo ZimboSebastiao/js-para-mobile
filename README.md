@@ -28,3 +28,12 @@
 ### Template Literal/String
 
 Forma mais moderna de manipular dados estáticos e dinâmicos, além de permitir de forma mais fácil executar operações dentro de string/códigos. Lembre-se do uso das **crases** e do bloco `${}` para execuções de código dinâmico (variáveis, constantes, funções, condicionais e etc).
+
+### Módulos
+
+São uma maneira de separar lógicas/funcionalidades/dados em arquivos dedicados. Ao criar módulos, é necessário utilizar os comandos `export` (no módulo a ser exportado) e `import` (no arquivo em que você quer usar o módulo).
+
+Ao exportar apenas **um recurso**, utiliza-se `export default nomeDoRecurso`. Ao exportar **um ou mais** recursos, utiliza-se `export {recurso1, recurso2, recursoN}`.
+
+
+Ao importar apenas **um recurso**, utiliza-se `import nomeDoRecurso from "local/nomeDoModulo"`. A importar **um ou mais** recursos, utiliza-se `import {recurso1, recurso2, recursoN} from "local/nomeDoModulo"`.
