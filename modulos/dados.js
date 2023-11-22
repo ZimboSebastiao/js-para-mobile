@@ -3,3 +3,5 @@ const pessoa = {
     idade: 23,
     cidade: 'São paulo'
 }
+
+export default pessoa;
