@@ -10,6 +10,6 @@ let estado = "SP";
 Meu nome é Zimbo Sebastião, tenho 25 anos e moro atualmente na cidade de São Paulo - SP
 */
 
-let mensagem1 = "Meu nome é "+nome+ " "+sobrenome+ ", tenho "+idade+" anos e moro atualmente na cidade de "+cidade+" - "+estado+".";
+let mensagem1 = "Meu nome é <b class=\"destaque\">"+nome+ "</b> "+sobrenome+ ", tenho "+idade+" anos e moro atualmente na cidade de "+cidade+" - "+estado+".";
 
 console.log(mensagem1);
