@@ -7,3 +7,4 @@ for (const prop in pessoa) {
     console.log(pessoa[prop]);
     
 }
+console.log(livro);
