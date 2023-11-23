@@ -20,6 +20,14 @@ const titulos = cursos.map(curso => curso.titulo);
 console.log(titulos);
 
 // Exercício
-const precos = cursos.map(preco => preco.preco * 0.9);
+const precos = cursos.map(curso => curso.preco * 0.9);
 
 console.log(precos);
+
+// Desafio
+const blackFriday = cursos.map(curso => {
+    
+    return {...curso, preco: curso.preco * 0.9}
+});
+
+console.log(blackFriday);
