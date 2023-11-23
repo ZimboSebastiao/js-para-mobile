@@ -76,3 +76,32 @@ const { nome, idade, bairro, situacao } = pessoa;
 
 console.log(`O aluno ${nome} está em situação ${situacao} no curso.`);
 console.log(`Mora na ${bairro} e mesmo assim sempre atrasa...`);
+
+console.log("\n\n");
+
+// Criando um apelido para a propriedade codigo
+const {codigo: pedido, cursos, preco} = {codigo: "123abc", cursos: ["Figma", "Node.js"], preco: 1000}
+
+console.log(pedido);
+console.log(cursos);
+console.log(preco);
+
+console.log("\n\n");
+// Destructuring para parâmetros de função
+
+function exibirDadosFilmes(objeto) {
+    console.log(`Filme: ${objeto.titulo} - Ano de lançamento: ${objeto.ano} `);
+}
+
+const filme1 = {
+    titulo: "Vingadores",
+    ano: 2012
+}
+
+const filme2 = {
+    titulo: "Barbie",
+    ano: 2023
+}
+
+exibirDadosFilmes(filme1);
+exibirDadosFilmes(filme2);
