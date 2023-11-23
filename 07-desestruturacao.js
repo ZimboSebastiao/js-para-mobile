@@ -89,8 +89,25 @@ console.log(preco);
 console.log("\n\n");
 // Destructuring para parâmetros de função
 
-function exibirDadosFilmes(objeto) {
-    console.log(`Filme: ${objeto.titulo} - Ano de lançamento: ${objeto.ano} `);
+// function exibirDadosFilmes(objeto) {
+//     console.log(`Filme: ${objeto.titulo} - Ano de lançamento: ${objeto.ano} `);
+// }
+
+// const filme1 = {
+//     titulo: "Vingadores",
+//     ano: 2012
+// }
+
+// const filme2 = {
+//     titulo: "Barbie",
+//     ano: 2023
+// }
+
+// exibirDadosFilmes(filme1);
+// exibirDadosFilmes(filme2);
+
+function exibirDadosFilmes({titulo, ano}) {
+    console.log(`Filme: ${titulo} - Ano de lançamento: ${ano} `);
 }
 
 const filme1 = {
