@@ -16,9 +16,18 @@ console.log(melissa);
 
 console.log("===================== \n");
 const unidades = ["Penha", "Tatuapé", "Itaquera", "São Miguel"];
-                    // Pulando itaquera
+// Pulando itaquera
 const [penha, tatuape, , smp] = unidades;
 
 console.log(penha);
 console.log(tatuape);
 console.log(smp);
+
+
+console.log("===================== \n");
+
+const [tesla, einstein, newton] = ["Tesla", "Einstein", "Newton"];
+
+console.log(tesla);
+console.log(einstein);
+console.log(newton);
