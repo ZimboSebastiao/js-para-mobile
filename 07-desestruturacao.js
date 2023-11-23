@@ -62,3 +62,12 @@ for (const produto of produtos) {
 console.log(converter("zimbo"));
 console.log(converter("AiCha"));
 console.log(converter(produtos[2]));
+
+// Destructuring em objetos
+
+const pessoa = {
+    nome: "Andre",
+    idade: 19,
+    bairro: "penha",
+    situacao: "Crítica"
+};
