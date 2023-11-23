@@ -18,3 +18,8 @@ console.log(cursos);
 const titulos = cursos.map(curso => curso.titulo);
 
 console.log(titulos);
+
+// Exercício
+const precos = cursos.map(preco => preco.preco * 0.9);
+
+console.log(precos);
