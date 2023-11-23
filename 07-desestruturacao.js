@@ -31,3 +31,34 @@ const [tesla, einstein, newton] = ["Tesla", "Einstein", "Newton"];
 console.log(tesla);
 console.log(einstein);
 console.log(newton);
+
+console.log("================================ \n");
+
+const recursos = [
+    ["Notebook", "Tv Led", "Desktop"],
+    texto => texto.toUpperCase()
+
+]
+
+const exemplo3 = () => {
+    console.log("Arrow Function!");
+};
+
+
+console.log(recursos); //  array completo
+
+// Destructuring
+const [produtos, converter] = recursos;
+
+// Acessando através da constante que foi gerada pelo Destructuring
+console.log(produtos);
+console.log(produtos[1]);
+
+for (const produto of produtos) {
+    console.log("Produto: "+produto);
+    
+}
+
+console.log(converter("zimbo"));
+console.log(converter("AiCha"));
+console.log(converter(produtos[2]));
