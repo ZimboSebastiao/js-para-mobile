@@ -71,3 +71,8 @@ const pessoa = {
     bairro: "penha",
     situacao: "Crítica"
 };
+
+const { nome, idade, bairro, situacao } = pessoa;
+
+console.log(`O aluno ${nome} está em situação ${situacao} no curso.`);
+console.log(`Mora na ${bairro} e mesmo assim sempre atrasa...`);
