@@ -18,6 +18,7 @@ console.log(vendasAcimaDaMeta);
 // Exemplo 2
 const alunos = ["Nicolas", "Eliel", "Andre", "Kaue", "Barbosa", "Aline", "Melissa", "Marina", "mônica", "Marcelo"];
 
+// filtrando alunos que começam com "M" e terminam com "o". Faz difereçam usar maiusculas ou minuscula
 const  resultados = alunos.filter(aluno => aluno.startsWith("M") && aluno.endsWith("o")
 );
 
