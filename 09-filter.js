@@ -40,3 +40,11 @@ console.log(cursosMenosDesign);
 console.log("============= Exercício ============\n");
 const exercicio1 = cursos.filter(curso => curso.preco > 600 && curso.categoria === "Front-end" || curso.categoria === "Mobile")
 console.log(exercicio1);
+
+// Desafio
+
+console.log("============= Desafio - Encadeamento de métodos ============\n");
+const desafio = cursos.filter(curso => curso.categoria == "Mobile").map( curso => curso.titulo);
+console.log(desafio);
+
+
