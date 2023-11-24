@@ -16,10 +16,10 @@ const vendasAcimaDaMeta = vendas.filter( (venda) => {
 console.log(vendasAcimaDaMeta);
 
 // Exemplo 2
-const alunos = ["Nicolas", "Eliel", "Andre", "Kaue", "Barbosa", "Aline", "Melissa", "Marina", "mônica"];
+const alunos = ["Nicolas", "Eliel", "Andre", "Kaue", "Barbosa", "Aline", "Melissa", "Marina", "mônica", "Marcelo"];
 
 const  resultados = alunos.filter(aluno => {
-    return aluno.startsWith("M") || aluno.startsWith("m");
+    return aluno.startsWith("M") && aluno.endsWith("o");
 });
 
 console.log(resultados);
