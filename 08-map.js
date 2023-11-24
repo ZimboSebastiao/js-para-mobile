@@ -32,7 +32,7 @@ const blackFriday = cursos.map(curso => {
 
 console.log(blackFriday);
 
-// Desafio
+// Simplificar a arrow function: é necessário envolver o código de return implícito com parênteses
 const blackFriday2 = cursos.map(curso => 
     
     ({...curso, preco: curso.preco * 0.9})
