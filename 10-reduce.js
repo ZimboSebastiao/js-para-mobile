@@ -44,8 +44,6 @@ console.log(SomaCursos);
 
 console.log("================== Desafio ====================\n");
 
-const desafio = cursos.filter(curso => curso.categoria == "Front-end" || curso.categoria == "Back-end" ).reduce((acomulador, curso) => {
-    return acomulador + curso.preco
-}, 0 )
+const desafio = cursos.filter(curso => curso.categoria == "Front-end" || curso.categoria == "Back-end" ).reduce((acomulador, curso) => acomulador + curso.preco, 0 );
 
 console.log(desafio);
