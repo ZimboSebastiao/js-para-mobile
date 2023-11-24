@@ -33,17 +33,16 @@ for(let valor of valores){
 console.log(acumuladora2);
 
 
-console.log("======================================\n");
+console.log("================== Exercício ====================\n");
 
-const SomaCursos = cursos.reduce((acomulador, curso) => {
-    return acomulador + curso.preco
-}, 0 )
+const SomaCursos = cursos.reduce((acomulador, curso) => acomulador + curso.preco, 0 )
 
 console.log(SomaCursos);
 
 
 console.log("================== Desafio ====================\n");
 
-const desafio = cursos.filter(curso => curso.categoria == "Front-end" || curso.categoria == "Back-end" ).reduce((acomulador, curso) => acomulador + curso.preco, 0 );
+const desafio = cursos.filter(curso => curso.categoria == "Front-end" || curso.categoria == "Back-end" )
+.reduce((acomulador, curso) => acomulador + curso.preco, 0 );
 
 console.log(desafio);
