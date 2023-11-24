@@ -27,3 +27,16 @@ const  resultados = alunos.filter(aluno => aluno.startsWith("M") && aluno.endsWi
 console.log(resultados);
 console.log("\n\n");
 
+// Filtrando por cursos da categoria Design
+
+const cursosDesign = cursos.filter(curso => curso.categoria == "Design");
+
+console.log(cursosDesign);
+
+const cursosMenosDesign = cursos.filter(curso => curso.categoria != "Design")
+console.log(cursosMenosDesign);
+
+// Exercicio
+console.log("============= Exercício ============\n");
+const exercicio1 = cursos.filter(curso => curso.preco > 600 && curso.categoria === "Front-end" || curso.categoria === "Mobile")
+console.log(exercicio1);
