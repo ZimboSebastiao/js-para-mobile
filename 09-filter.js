@@ -1,3 +1,5 @@
+import cursos from "./modulos/cursos.js";
+
 /*
 filter (filtar)
 Passa por elementos de um array (usando uma função callback) e retorna valores de acordo com uma ou mais condições gerando um novo array.
@@ -23,3 +25,5 @@ const  resultados = alunos.filter(aluno => aluno.startsWith("M") && aluno.endsWi
 );
 
 console.log(resultados);
+console.log("\n\n");
+
