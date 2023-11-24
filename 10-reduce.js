@@ -1,3 +1,6 @@
+import cursos from "./modulos/cursos.js";
+
+
 /*
 reduce (reduzir, redução)
 Passa por elementos de um array (usando uma função callback com parâmetros cpm valor inicial) e retornar um único valor/resultado. Pode ser útil para operações matemáticas que geram um único resultado
@@ -28,3 +31,21 @@ for(let valor of valores){
     acumuladora2 += valor
 }
 console.log(acumuladora2);
+
+
+console.log("======================================\n");
+
+const SomaCursos = cursos.reduce((acomulador, curso) => {
+    return acomulador + curso.preco
+}, 0 )
+
+console.log(SomaCursos);
+
+
+console.log("================== Desafio ====================\n");
+
+const desafio = cursos.filter(curso => curso.categoria == "Front-end" || curso.categoria == "Back-end" ).reduce((acomulador, curso) => {
+    return acomulador + curso.preco
+}, 0 )
+
+console.log(desafio);
