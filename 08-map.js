@@ -31,3 +31,11 @@ const blackFriday = cursos.map(curso => {
 });
 
 console.log(blackFriday);
+
+// Desafio
+const blackFriday2 = cursos.map(curso => 
+    
+    ({...curso, preco: curso.preco * 0.9})
+);
+
+console.log(blackFriday2);
