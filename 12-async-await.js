@@ -9,9 +9,16 @@ const apiUrl = `https://jsonplaceholder.typicode.com/photos`;
 async function acessaApi() {
     try {
         const resposta = await fetch(apiUrl);
-        console.log(resposta);
+        if (!resposta.ok) {
+            throw new  Error (
+                `Erro na requisição: ${resposta.status} - ${resposta.statusText}`
+            )
+        }
+        const dados = await resposta.json();
+        console.log(dados);
     } catch (error) {
         console.error("Erro: " +error.message);
     }    
 }
+
 acessaApi();
