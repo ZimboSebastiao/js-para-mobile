@@ -16,15 +16,6 @@ async function acessaApi() {
         }
         const dados = await resposta.json();
         console.log(dados);
-
-        const lista = document.querySelector("div")
-        for(const dado of dados){
-
-                let item = document.createElement("p");
-                item.innerHTML = `Nome completo: ${dado.name}  ${dado. username}`;
-                lista.appendChild(item);
-            
-        }
     } catch (error) {
         console.error("Erro: " +error.message);
     }    
